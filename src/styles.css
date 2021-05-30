@@ -15,6 +15,7 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; background-
   box-shadow: 0px 0px 7px 0px #000000;
   z-index: 99;
   margin-bottom: 2px;
+  min-width: 360px;
 }
 
 .drawer a
@@ -356,6 +357,12 @@ th.mat-header-cell:first-of-type,td.mat-cell:first-of-type,td.mat-footer-cell:fi
   background-color: #197da5;
 }
 
+.yellow-back
+{
+  background-color: #ffff00;
+  color: #000000 !important;
+}
+
 .notification-panel
 {
   background-color: #e8e7e7;
@@ -570,6 +577,3 @@ th.mat-header-cell:first-of-type,td.mat-cell:first-of-type,td.mat-footer-cell:fi
 {
   /* styles for large devices */
 }
-
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
